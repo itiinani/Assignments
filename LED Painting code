@@ -1,0 +1,28 @@
+void setup() {
+  //setting the LED's to OUTPUT mode
+  pinMode(LED_1,OUTPUT);
+  pinMode(LED_2,OUTPUT);
+  pinMode(LED_3,OUTPUT);
+  pinMode(LED_4,OUTPUT);
+  pinMode(LED_5,OUTPUT); 
+}
+
+void loop() {
+  // LED 1 to 5 will blink sequentially with a delay of 1 sec
+digitalWrite(LED_1, HIGH);
+delay(1000);
+digitalWrite(LED_1, LOW);
+digitalWrite(LED_2, HIGH);
+delay(1000);
+digitalWrite(LED_2, LOW);
+digitalWrite(LED_3, HIGH);
+delay(1000);
+digitalWrite(LED_3, LOW);
+digitalWrite(LED_4, HIGH);
+delay(1000);
+digitalWrite(LED_4, LOW);
+digitalWrite(LED_5, HIGH);
+delay(1000);
+digitalWrite(LED_5, LOW);
+
+}
